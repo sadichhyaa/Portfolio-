@@ -1,0 +1,100 @@
+.parallax {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    /* The image used */
+    background-image: url("/assets/images/main.jpg");
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.button {
+    border: none;
+    border-radius: 0.4em;
+    color: #757575;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    height: 60px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: black;
+}
+
+.quote {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 10px 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.profile-box {
+    width: 100%;
+    margin-bottom: 128px;
+}
+
+.profile-cont {
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.p-image {
+    padding: 30px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.p-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    height: 16%;
+}
+
+.p-body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    object-fit: cover;
+}

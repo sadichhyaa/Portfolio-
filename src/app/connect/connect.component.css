@@ -1,0 +1,39 @@
+.main {
+    background-color: #e9c9ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #e9c9ca;
+    margin-top: 20px;
+}
+
+.social-insta svg {
+    stroke: #757575;
+    height: 140px;
+    width: 140px;
+    padding: 30px
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    height: 160px;
+    width: 160px;
+    padding: 30px
+}
+
+.twitter-icon {
+    height: 140px;
+    width: 140px;
+    padding: 30px
+}
